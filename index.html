@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student CV - John Doe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        .contact-info, .skills, .education, .projects, .extracurriculars {
+            margin-bottom: 20px;
+        }
+        .contact-info p, .skills ul, .education ul, .projects ul, .extracurriculars ul {
+            margin: 0;
+            padding: 0;
+        }
+        .skills ul, .education ul, .projects ul, .extracurriculars ul {
+            list-style-type: none;
+        }
+        .skills li, .education li, .projects li, .extracurriculars li {
+            margin-bottom: 10px;
+        }
+        .skills li::before, .education li::before, .projects li::before, .extracurriculars li::before {
+            content: "• ";
+            color: #0073e6;
+        }
+        .section-title {
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sheher Bano</h1>
+            <p>Psychology Student | Aspiring Clinical Psychologist</p>
+            <div class="contact-info">
+                <p>Email: sheher.bano@student.edu</p>
+                <p>Phone: (+92) ***-*******</p>
+                <p>Location: Pakistan</p>
+            </div>
+        </header>
+
+        <section class="education">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li>
+                    <h3>Bachelor of Psychology</h3>
+                    <p>Comsats University Islamabad, Islamabad, Pakistan</p>
+                    <p><em>Expected Graduation: May 2028</em></p>
+                    <p>Current GPA: **/**</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>**********************</li>
+                <li>**********************</li>
+                <li>**********************</li>
+             
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2 class="section-title">Projects</h2>
+            <ul>
+                <li>
+                    <h3>************************</h3>
+                    <p>*************************************</p>
+                </li>
+                <li>
+                    <h3>************************</h3>
+                    <p>*************************************</p>
+                </li>
+                <li>
+                    <h3>************************</h3>
+                    <p>*************************************</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="extracurriculars">
+            <h2 class="section-title">Extracurricular Activities</h2>
+            <ul>
+                <li>
+                    <h3>President, Dramatics Society Club</h3>
+                    <p> School of Islamabad | September 2023 - April 2024</p>
+                    <p>Organized dramas, plays, and guest speaker events to engage students in the drama community.</p>
+                </li>
+                <li>
+                    <h3>Volunteer, Charity Work</h3>
+                    <p>March 2023 - July 2023</p>
+                    <p>Assisted in teaching basic english speaking skills to local high school students from underprivileged communities.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
